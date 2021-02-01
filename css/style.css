@@ -6,15 +6,21 @@
 [class*='col-'] {
   height: 100%;
   text-align: center;
-  border: 1px solid #000;
+  border: 2px solid #000;
   background-color: #FFC0CB;
   font-weight: bold;
   font-size: 18px;
   padding: 0 15px;
 }
 
-footer .col-6 {
+footer .row > .col-6 {
+  background-color: #FFC0CB;
   padding: 5px;
+}
+
+footer .row >.col-6 [class*='col-'] {
+  background-color: #F07F80;
+  border: 2px solid white;
 }
 
 footer .col-6 > .container {
