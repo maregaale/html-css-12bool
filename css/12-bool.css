@@ -11,7 +11,7 @@
   border: 1px solid blue;
 }
 
-.debug [class*='col-1'] {
+.debug [class*='col-'] {
   height: 150px;
   border: 1px solid red;
 }
