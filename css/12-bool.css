@@ -1,5 +1,34 @@
+/* reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* /reset */
+
+/* debug */
+.debug .container {
+  border: 1px solid blue;
+}
+
+.debug [class*='col-1'] {
+  height: 150px;
+  border: 1px solid red;
+}
+/* /debug */
+
+/* Framework */
+/* container */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* /container */
+
+/* clear */
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /clear */
