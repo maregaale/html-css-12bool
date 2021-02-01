@@ -1,7 +1,28 @@
-[class*='col-'] {
+.row {
   height: 200px;
   line-height: 200px;
+}
+
+[class*='col-'] {
+  height: 100%;
   text-align: center;
   border: 1px solid #000;
   background-color: #FFC0CB;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0 15px;
+}
+
+footer .col-6 {
+  padding: 5px;
+}
+
+footer .col-6 > .container {
+  height: 100%;
+}
+
+footer span {
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: middle;
 }
