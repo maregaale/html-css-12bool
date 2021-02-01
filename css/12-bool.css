@@ -33,6 +33,12 @@
 }
 /* /clear */
 
+/* float */
+[class*='col-'] {
+  float: left;
+}
+/* /float */
+
 /* larghezza colonne in 12esimi */
 .col-1 {
   width: calc( (100% / 12) * 1 );
